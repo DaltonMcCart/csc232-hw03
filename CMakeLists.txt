@@ -59,17 +59,21 @@ set(CMAKE_CXX_STANDARD 14)
 set(SRC_MAIN_FILES
         src/main/cpp/Main.cpp
         src/main/cpp/BagInterface.h
-        src/main/cpp/ArrayBag.h)
+        src/main/cpp/ArrayBag.h
+        src/main/cpp/SetArrayBag.h)
 
 set(SRC_DEMO_FILES
         src/main/cpp/Demo.cpp
         src/main/cpp/BagInterface.h
-        src/main/cpp/ArrayBag.h)
+        src/main/cpp/ArrayBag.h
+        src/main/cpp/SetArrayBag.h)
+
 
 set(SRC_TEST_FILES
         src/test/cpp/UnitTestRunner.cpp
         src/main/cpp/BagInterface.h
-        src/main/cpp/ArrayBag.h)
+        src/main/cpp/ArrayBag.h
+        src/main/cpp/SetArrayBag.h)
 
 # Set the runtime output directory
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/out)

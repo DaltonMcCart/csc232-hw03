@@ -11,6 +11,7 @@
 #include <iostream>
 #include "BagInterface.h"
 #include "ArrayBag.h"
+#include "SetArrayBag.h"
 
 int main() {
     std::cout << "Hello, main!" << std::endl;
@@ -20,6 +21,10 @@ int main() {
     for (auto item : bagOfInts->toVector()) {
         std::cout << item << std::endl;
     }
+
+    SetArrayBag<int> lhb{};
+    SetArrayBag<int> rhb{};
+    SetArrayBag<int> result = lhb.unionWith(rhb);
 
     return EXIT_SUCCESS;
 }
