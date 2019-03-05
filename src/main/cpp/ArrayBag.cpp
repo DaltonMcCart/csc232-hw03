@@ -1,8 +1,12 @@
-//  Created by Frank M. Carrano and Timothy M. Henry.
-//  Copyright (c) 2017 Pearson Education, Hoboken, New Jersey.
-
-/** Implementation file for the class ArrayBag.
- @file ArrayBag.cpp */
+/**
+ * CSC232 Data Structures
+ * Missouri State University
+ *
+ * @file    ArrayBag.h
+ * @authors Frank M. Carrano and Timothy M. Henry
+ *          Jim Daehn <jdaehn@missouristate.edu>
+ * @brief   Implementation file for the class ArrayBag.
+ */
 
 #include "ArrayBag.h"
 #include <cstddef>
