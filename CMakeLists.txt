@@ -73,7 +73,13 @@ set(SRC_TEST_FILES
         src/test/cpp/UnitTestRunner.cpp
         src/main/cpp/BagInterface.h
         src/main/cpp/ArrayBag.h
-        src/main/cpp/SetArrayBag.h)
+        src/main/cpp/SetArrayBag.h
+        src/test/cpp/UnionOperationsUnitTest.cpp
+        src/test/cpp/UnionOperationsUnitTest.h
+        src/test/cpp/IntersectionOperationsUnitTest.cpp
+        src/test/cpp/IntersectionOperationsUnitTest.h
+        src/test/cpp/DifferenceOperationsUnitTest.cpp
+        src/test/cpp/DifferenceOperationsUnitTest.h)
 
 # Set the runtime output directory
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/out)

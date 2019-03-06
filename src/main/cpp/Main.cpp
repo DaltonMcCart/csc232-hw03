@@ -23,8 +23,27 @@ int main() {
     }
 
     SetArrayBag<int> lhb{};
+    lhb.add(100);
+    lhb.add(100);
+
     SetArrayBag<int> rhb{};
-    SetArrayBag<int> result = lhb.unionWith(rhb);
+    rhb.add(100);
+    rhb.add(200);
+    rhb.add(300);
+
+    BagInterface<int>& result = lhb.unionWith(rhb);
+    std::cout << std::endl << "Union" << std::endl;
+    for (auto item : result.toVector()) {
+        std::cout << item << std::endl;
+    }
+
+    result.clear();
+
+    std::cout << std::endl << "Intersection" << std::endl;
+    const BagInterface<int>& result2 = lhb.intersectionWith(rhb);
+    for (auto item : result2.toVector()) {
+        std::cout << item << std::endl;
+    }
 
     return EXIT_SUCCESS;
 }

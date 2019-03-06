@@ -4,6 +4,7 @@
  *
  * @file    SetArrayBag.cpp
  * @authors Jim Daehn <jdaehn@missouristate.edu>
+ *          TODO: Put your name here
  *
  * @brief   Implementation file for an set supporting, array-based implementation of the ADT bag.
  */
@@ -11,22 +12,28 @@
 #include "SetArrayBag.h"
 
 template<typename ItemType>
-SetArrayBag<ItemType> SetArrayBag<ItemType>::unionWith(const BagInterface<ItemType> &bag) {
-    BagInterface<ItemType>* unionBag = new SetArrayBag{};
+BagInterface<ItemType> &SetArrayBag<ItemType>::unionWith(const BagInterface<ItemType> &bag) {
+    BagInterface<ItemType> *unionBag = new SetArrayBag{};
+
+    // TODO: Implement me; commit when done
 
     return *unionBag;
 }
 
 template<typename ItemType>
-SetArrayBag<ItemType> SetArrayBag<ItemType>::intersectionWith(const BagInterface<ItemType> &bag) {
-    BagInterface<ItemType>* intersectionBag = new SetArrayBag{};
+BagInterface<ItemType>& SetArrayBag<ItemType>::intersectionWith(const BagInterface<ItemType> &bag) {
+    BagInterface<ItemType> *intersectionBag = new SetArrayBag{};
+
+    // TODO: Implement me; commit when done
 
     return *intersectionBag;
 }
 
 template<typename ItemType>
-SetArrayBag<ItemType> SetArrayBag<ItemType>::differenceWith(const BagInterface<ItemType> &bag) {
-    BagInterface<ItemType>* differenceBag = new SetArrayBag{};
+BagInterface<ItemType>& SetArrayBag<ItemType>::differenceWith(const BagInterface<ItemType> &bag) {
+    BagInterface<ItemType> *differenceBag = new SetArrayBag{};
+
+    // TODO: Implement me; commit when done
 
     return *differenceBag;
 }
