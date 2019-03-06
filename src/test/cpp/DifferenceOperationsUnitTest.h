@@ -1,0 +1,14 @@
+//
+// Created by James Daehn on 2019-03-06.
+//
+
+#ifndef HW03_DIFFERENCEOPERATIONSUNITTEST_H
+#define HW03_DIFFERENCEOPERATIONSUNITTEST_H
+
+
+class DifferenceOperationsUnitTest {
+
+};
+
+
+#endif //HW03_DIFFERENCEOPERATIONSUNITTEST_H
