@@ -72,7 +72,7 @@ void DifferenceOperationsUnitTest::testBiggerRightBag() {
     rhb.add("Test");
     rhb.add("Case");
     BagInterface<std::string>& bagUnion = lhb.differenceWith(rhb);
-    int expectedSize{1};
+    int expectedSize{0};
     int actualSize{bagUnion.getCurrentSize()};
     CPPUNIT_ASSERT_EQUAL(expectedSize, actualSize);
 }
