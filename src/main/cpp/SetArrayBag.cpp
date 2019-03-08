@@ -29,7 +29,7 @@ BagInterface<ItemType>& SetArrayBag<ItemType>::intersectionWith(const BagInterfa
     BagInterface<ItemType> *intersectionBag = new SetArrayBag{};
 
     for (auto item : ArrayBag<ItemType>::toVector()){
-        if (bag.contains(item)){
+        if (bag.contains(item) && !intersectionBag->contains(item)){
             intersectionBag->add(item);
         }
     }
